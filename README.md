@@ -32,10 +32,10 @@ Mini Webcam Preview on the presentation screen.
 
 # ⚙️ Installation
 ## Clone this repository
-git clone https://github.com/yourusername/hand-gesture-presentation.git
+git clone https://github.com/NiShAnt12356/hand-gesture-presentation.git
 cd hand-gesture-presentation
 
-#@ Install dependencies
+## Install dependencies
 pip install opencv-python cvzone numpy
 
 ## ▶️ How to Run
@@ -47,9 +47,9 @@ Run the script:
 python app.py
 
 
-Use gestures to control slides.
+# Use gestures to control slides.
 
-# ✨ Gesture Controls
+## ✨ Gesture Controls
 Gesture	Action
 ☝️ Index finger up	Draw on slide
 ✌️ Index + Middle finger	Pointer
