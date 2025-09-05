@@ -30,7 +30,7 @@ Erase Mode: All five fingers up
 
 Mini Webcam Preview on the presentation screen.
 
-#⚙️ Installation
+# ⚙️ Installation
 ## Clone this repository
 git clone https://github.com/yourusername/hand-gesture-presentation.git
 cd hand-gesture-presentation
