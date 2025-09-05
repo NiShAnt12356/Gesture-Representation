@@ -11,7 +11,7 @@ Draw annotations
 
 Erase annotations
 
-📌 Features
+# 📌 Features
 
 Gesture Recognition (powered by cvzone
  HandTrackingModule).
@@ -30,15 +30,15 @@ Erase Mode: All five fingers up
 
 Mini Webcam Preview on the presentation screen.
 
-⚙️ Installation
-# Clone this repository
+#⚙️ Installation
+## Clone this repository
 git clone https://github.com/yourusername/hand-gesture-presentation.git
 cd hand-gesture-presentation
 
-# Install dependencies
+#@ Install dependencies
 pip install opencv-python cvzone numpy
 
-▶️ How to Run
+## ▶️ How to Run
 
 Place your presentation images in a folder named presentation/ (e.g., slide1.jpg, slide2.png).
 
@@ -49,7 +49,7 @@ python app.py
 
 Use gestures to control slides.
 
-✨ Gesture Controls
+# ✨ Gesture Controls
 Gesture	Action
 ☝️ Index finger up	Draw on slide
 ✌️ Index + Middle finger	Pointer
@@ -57,12 +57,13 @@ Gesture	Action
 👉 Right swipe gesture	Next Slide
 ✋ All fingers up	Erase last annotation
 📂 Project Structure
-hand-gesture-presentation/
+
+## hand-gesture-presentation/
 │── presentation/       # Folder containing slides (images)
 │── app.py              # Main Python script
 │── README.md           # Project documentation
 
-📊 Workflow Diagram
+# 📊 Workflow Diagram
 Hand Tracking & Gesture Detection
 flowchart TD
     A[Webcam Feed] --> B[Hand Detection - cvzone]
@@ -73,7 +74,7 @@ flowchart TD
     C --> G[Eraser Mode]
     D & E & F & G --> H[Update Presentation Screen]
 
-🎥 Demo Illustration
+# 🎥 Demo Illustration
 Gesture → Action Mapping
 +-------------+-----------------+
 |   Gesture   |      Action     |
@@ -88,7 +89,7 @@ Gesture → Action Mapping
 
 (Replace with actual screenshots/gifs if you want in the repo)
 
-🛠️ Dependencies
+# 🛠️ Dependencies
 
 OpenCV
  – Image & video processing
@@ -99,7 +100,7 @@ cvzone
 NumPy
  – Array operations
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
 Support for PPT/PDF files directly
 
@@ -107,6 +108,6 @@ Add multi-hand controls
 
 Gesture customization via config file
 
-🙌 Contributing
+# 🙌 Contributing
 
 Pull requests are welcome! Please open an issue first to discuss what you’d like to change.
