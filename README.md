@@ -73,7 +73,7 @@ README.md → Project documentation
 
 # 📊 Workflow Diagram
 
-## 🎥 Demo Illustration
+##  Illustration
 Gesture → Action Mapping
 
 Gesture: ☝️   → Draw Annotation
