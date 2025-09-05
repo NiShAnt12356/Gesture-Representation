@@ -18,17 +18,18 @@ Gesture Recognition (powered by cvzone
 
 Slide Navigation:
 
-👆 Left finger → Previous Slide
+ Gesture                     Action                
 
-👉 Right finger → Next Slide
+ ☝️ Index finger up         | Draw on slide         
 
-Pointer Mode: Index + Middle finger up
+ ✌️ Index + Middle finger   | Pointer               
 
-Draw Mode: Only Index finger up
+ 👆 Hand up (left gesture)  | Previous Slide       
 
-Erase Mode: All five fingers up
+ 👉 Hand up (right gesture) | Next Slide            
 
-Mini Webcam Preview on the presentation screen.
+ ✋ All fingers up          | Erase last annotation 
+
 
 # ⚙️ Installation
 ## Clone this repository
