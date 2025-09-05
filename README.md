@@ -1,4 +1,4 @@
-✋ Hand Gesture Controlled Presentation
+# ✋ Hand Gesture Controlled Presentation
 
 Control your presentations seamlessly using hand gestures and OpenCV.
 With just your webcam, you can:
