@@ -58,36 +58,23 @@ Gesture	Action
 ✋ All fingers up	Erase last annotation
 📂 Project Structure
 
-## hand-gesture-presentation/
-│── presentation/       # Folder containing slides (images)
-│── app.py              # Main Python script
-│── README.md           # Project documentation
+# 📂 Project Structure
+
+presentation/ → Folder containing slides (images)
+
+app.py → Main Python script
+
+README.md → Project documentation
 
 # 📊 Workflow Diagram
-Hand Tracking & Gesture Detection
-flowchart TD
-    A[Webcam Feed] --> B[Hand Detection - cvzone]
-    B --> C[Gesture Recognition]
-    C --> D[Slide Navigation]
-    C --> E[Pointer Mode]
-    C --> F[Draw Mode]
-    C --> G[Eraser Mode]
-    D & E & F & G --> H[Update Presentation Screen]
 
-# 🎥 Demo Illustration
+## 🎥 Demo Illustration
 Gesture → Action Mapping
-+-------------+-----------------+
-|   Gesture   |      Action     |
-+-------------+-----------------+
-| ☝️          | Draw Annotation |
-| ✌️          | Pointer Mode    |
-| 👆          | Previous Slide  |
-| 👉          | Next Slide      |
-| ✋          | Erase Drawing   |
-+-------------+-----------------+
-
-
-(Replace with actual screenshots/gifs if you want in the repo)
+Gesture: ☝️   → Draw Annotation
+Gesture: ✌️   → Pointer Mode
+Gesture: 👆   → Previous Slide
+Gesture: 👉   → Next Slide
+Gesture: ✋   → Erase Drawing
 
 # 🛠️ Dependencies
 
