@@ -50,13 +50,17 @@ python app.py
 # Use gestures to control slides.
 
 ## ✨ Gesture Controls
-Gesture	Action
+
 ☝️ Index finger up	Draw on slide
+
 ✌️ Index + Middle finger	Pointer
+
 👆 Left swipe gesture	Previous Slide
+
 👉 Right swipe gesture	Next Slide
+
 ✋ All fingers up	Erase last annotation
-📂 Project Structure
+
 
 # 📂 Project Structure
 
@@ -70,10 +74,15 @@ README.md → Project documentation
 
 ## 🎥 Demo Illustration
 Gesture → Action Mapping
+
 Gesture: ☝️   → Draw Annotation
+
 Gesture: ✌️   → Pointer Mode
+
 Gesture: 👆   → Previous Slide
+
 Gesture: 👉   → Next Slide
+
 Gesture: ✋   → Erase Drawing
 
 # 🛠️ Dependencies
